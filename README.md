@@ -1,8 +1,7 @@
 # Tableau Dashboards - Creating a Dashboard Layout
 
 ## Introduction
-
-
+In this lab, we will provide a guide on how to build dashboards in Tableau in ten simple steps. The guide begins by emphasizing the importance of planning a dashboard and clarifying the objectives to visualize data effectively. The steps include creating a new dashboard, choosing the appropriate layout, adding sheets, arranging and resizing them, adding filters, titles and text, customizing the appearance, and publishing the dashboard. Then, you will complete an exercise in building a simple dashboard for visualizing sales by sub-category in two ways: total sales by sub-category and total regional sales for the top-5 sub-categories.
 
 ## Objectives
 
@@ -10,6 +9,7 @@ You will be able to:
 
 * Create a dashboard in a Tableau workbook
 * Use horizontal and vertical containers to implement a dashboard layout
+* Apply customizations and add filters to a dashboard
 * Save and publish a dashboard to Tableau Public
 
 ## Ten Steps for Building Dashboards in Tableau

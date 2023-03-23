@@ -211,16 +211,7 @@ In the video below, we perform steps 17-18.
     </center>
 </div>
 
-18. Next, click on the bar chart and select **Use as a Filter > Sum (Profits)**.
-
-<p>
-<div>
-    <center>
-<table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/dash-select-top-viz.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
-</td></tr></table>
-    </center>
-</div>
+18. Next, click on the bar chart and select **Use as a Filter**.
 
 <p>
 <div>
@@ -239,6 +230,8 @@ In the video below, we perform steps 17-18.
 </td></tr></table>
     </center>
 </div>
+
+Now, you can use the categories in the bar chart to filter the entire dashboard, including the regional map.
 
 
 19. Save and Publish to Tableau Public! Submit your workbook link when you are finished.

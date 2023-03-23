@@ -162,15 +162,15 @@ b. Tableau also automatically moves `Sales` to the Marks card and adds a Size at
 14. From the Dashboard pane, add a Desktop Layout. 
 
 15. Then select:
-a. Default layout
-b. Tiled
-c. Show Title
+    a. Default layout
+    b. Tiled
+    c. Show Title
 
 <p>
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/dashbaord_layout.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/dashboard-layout" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center>
 </div>

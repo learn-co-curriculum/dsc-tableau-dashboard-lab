@@ -280,6 +280,6 @@ Now, you can use the categories in the bar chart to filter the entire dashboard,
 19. Save and Publish to Tableau Public! Submit your workbook link when you are finished.
 
 ## Summary
-In this lab, we reviewed the basic steps for building a dashboard. The steps include planning the dashboard, choosing a layout, adding sheets, arranging and resizing sheets, adding filters, adding titles and text, customizing the appearance. Then, we walked through creating a simple dashboard for communicating Sales by Sub-Category in two ways: Total Sales by Sub-Category and Total Regional Sales for the Top-10 Sub-Categories.
+In this lab, we reviewed the basic steps for building a dashboard. The steps include planning the dashboard, choosing a layout, adding sheets, arranging and resizing sheets, adding filters, adding titles and text, customizing the appearance. Then, we walked through creating a simple dashboard for communicating Sales by Sub-Category in two ways: Total Sales by Sub-Category and Total Regional Sales for the Top-5 Sub-Categories.
 
 By now, you should have a fairly good understanding of dashboarding basics in Tableau. In the upcoming cumulative lab, you will have a chance to apply your skills and create an interactive dashboard on your own.

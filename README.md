@@ -50,24 +50,54 @@ To complete step one, we have to understand our use case and plan our dashboard.
 
 For this exercise, our use case is to create a dashboard that will communicate Sales by Sub-Category in two ways:
 1. Total Sales by Sub-Category
-2. Total Regional Sales for the Top-10 Sub-Categories.
+2. Total Regional Sales for the Top-5 Sub-Categories.
 
 To communicate these data points, we can use a **bar chart** and **regional map** as visualizations.
 
 ## Create a New Dashboard and Vizzes
-1. Open `learn-wb-MMDDYYXX` and create a new dashboard using the Menu Bar or the Sheets tab. 
+1. Open `learn-wb` and create a new dashboard using the Menu Bar or the Sheets tab. 
 
 
 ### Build Viz 1
 2. Change the name of the dashboard sheet to "Regional Sales Dashboard".
 
-3. Click on the sheet tab for the "Profits by Sub-Category" visualization. Right click and select *Duplicate**.
+3. Click on the Sheets tab for the "Profits by Sub-Category" visualization. Right click and select *Duplicate**.
+
+<p>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/viz-1-duplicate.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
 
 4. Rename the new copy "Sales by Sub-Category".
 
 5. Next, select the `SUM(PROFITS)` pill from the Column shelf. Right click and select **Remove**. Then, drag `Sales` from the Data Pane to the Columns shelf. Re-order as **Descending** if needed.
 
+<p>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/remove-profit-from-cols.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
+
+
 5. Drag `Sales` from the Data Pane to the Marks card and add a Color attribute. Then, add a Label attribute for `Sales` to display the sales in USD. (Don't forget the currency symbols!)
+
+<p>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/rviz-1-swap-sales.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
+
+
 
 ### Build Viz 2
 6. Click on the sheet tab for "Sales by Sub-Category" and select **Duplicate**.
@@ -76,44 +106,110 @@ To communicate these data points, we can use a **bar chart** and **regional map*
 
 8. Then, arrange the Column and Row shelf so that that `SUM(Sales)` is in the Column shelf and `Sub-Category` and `Postal-Code` are on the Rows shelf.
 
+<p>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/rviz-2-bar.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
+
+
 9. Select the **Show Me Pane** from the upper right corner of the screen, and select **Map**.
 
 10. You'll notice that Tableau automatically does a few things:
 a. Generates `Longitude` and `Latitude` from `Postal Code`. `Postal-Code` also gets moved to the Marks card. with a Detail attribute.
 b. Tableau also automatically moves `Sales` to the Marks card and adds a Size attribute.
 
-11. Next, add `Sub-Category` to the Marks card and assign a Color attribute.
+
+<p>
+<div>
+    <center>
+<table><tr><td>
+<video controls src = "https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/show-me-map.mov" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
+
+
+11. Next, Remove `Sub-Category` from the Rows Shelf and add `Sub-Category` to the Marks card and assign a Color attribute.
+
+<p>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/viz-2-change-color.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
+
 
 12. Now, let's filter the data so that only categories in the top 5 for sales are featured by dragging the `Sub-Category` Dimension to the Filter shelf. Then, right click and select **Edit Filter > Top > By Feild > Top: 5 > Sub-Category > Count**, then apply. 
+
+<p>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/viz-2-filtered.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
 
 ### Build Dashboard Layout
 13. Now that we have two new vizzes, we can build a dashboard by selecting the New Dashboard icon from the Sheets tab.
 
-14. From the Dashboard pane, add a Desktop Layout. Then select:
+14. From the Dashboard pane, add a Desktop Layout. 
+
+15. Then select:
 a. Default layout
 b. Tiled
 c. Show Title
 
-15. Right click the dashboard title and select format title. From the Format pane that appears on the left side of the screen, copy the following parameters:
+<p>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/dashbaord_layout.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
+
+In the video below, we show steps 14-15.
+<p>
+<div>
+    <center>
+<table><tr><td>
+<video controls src = "https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/dash-1.mov" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
 
 16. Next, right click the dashboard title and select **Edit Title**. Make sure that the title is centered, and that the font size is 18.
 
-15. Next, drag a Vertical Container from the Objects card and add it beneath the title. Drag the "Sales by Sub-Category" viz from the Sheets Pane over and drop it under the title. Then, drag the legend from the left side of the dashboard underneath the viz.
+17. Next, drag a Vertical Container from the Objects card and add it beneath the title. Drag the "Sales by Sub-Category" viz from the Sheets Pane over and drop it under the title. Then, drag the legend from the left side of the dashboard underneath the viz.
 
-16. Next, drag a Horizontal Container from the Objects card and drop it underneath the bar chart and legend. Make sure that the legends appear to the left of the map. 
+18. Next, drag a Horizontal Container from the Objects card and drop it underneath the bar chart and legend. Then, drag and drop the "Regional Sales by Sub-Category" viz into the container from the Sheets pane. Make sure that the legends appear to the left of the map. 
 
-17. Next, remove the Filter feature by right clicking the arrow and selecting remove. Instead, click on the regional map viz and select the "Use as Filter" icon. Now we can filter the entire dashboard by selecting the Sub-Category from the regional map.
+In the video below, we perform steps 17-18.
 
-18. Resize the visualizations so that the layout closely matches the dashboard pictured below.
+<p>
+<div>
+    <center>
+<table><tr><td>
+<video controls src = "https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/dash-final.mov" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
 
-19. Save and Publish to Tableau Public!
+18. Next, click on the bar chart and select **Use as a Filter > Sum (Profits)**.
+
+
+19. Resize the visualizations so that the layout closely matches the dashboard pictured below.
+
+20. Save and Publish to Tableau Public! Submit your workbook link when you are finished.
 
 ## Summary
 In this lab, we reviewed the ten basic steps for building a dashboard. The steps include planning the dashboard, choosing a layout, adding sheets, arranging and resizing sheets, adding filters, adding titles and text, customizing the appearance. Then, we walked through creating a simple dashboard for communicating Sales by Sub-Category in two ways: Total Sales by Sub-Category and Total Regional Sales for the Top-10 Sub-Categories.
 
 By now, you should have a fairly good understanding of dashboarding basics in Tableau. In the upcoming cumulative lab, you will have a chance to apply your skills and create an interactive dashboard on your own.
-
-
-```
-<img src="raw.githubusercontent.com/learn-co-curriculum/{name_of_repository}/main/images/{image.png}" alt="text describing the image for visually impaired users">
-```

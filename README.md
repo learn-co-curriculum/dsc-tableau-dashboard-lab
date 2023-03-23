@@ -12,34 +12,34 @@ You will be able to:
 * Apply customizations and add filters to a dashboard
 * Save and publish a dashboard to Tableau Public
 
-## Ten Steps for Building Dashboards in Tableau
+## Steps for Building Dashboards in Tableau
 Now that we have learned the basics of Tableau dashboarding, it's time to build our own dashboard. Let's walk through the process step by step.
 
 ### Step 1: Plan your Dashboard
 Before you start building your dashboard, it's important to have a clear idea of what you want to achieve and what data you want to visualize. Think about the questions you want to answer and the insights you want to communicate to your audience.
 
-### Step 3: Create a New Dashboard
+### Step 2: Create a New Dashboard
 In the previous lesson, we discussed that there are a couple of ways to create a new dashboard in Tableau. One option selecting **Dashboard > Create New Dashboard** from the Menu Bar at the top of the screen. The other option is to use **New Dashboard** icon on the Sheets tab.
 
-### Step 4: Choose your Layout
+### Step 3: Choose your Layout
 Choose the layout that best suits your needs from the "Layout" pane. You can choose from a variety of preset layouts, or create your own custom layout.
 
-### Step 5: Add Sheets
+### Step 4: Add Sheets
 Add one or more sheets to your dashboard by dragging them from the "Sheets" pane onto the dashboard canvas. You can add sheets for different types of visualizations, such as bar charts, line charts, maps, or tables.
 
-### Step 6: Arrange and Resize Sheets
+### Step 5: Arrange and Resize Sheets
 Arrange and resize the sheets on your dashboard by dragging and dropping them, and adjusting their size and position. You can also use containers to group related sheets together.
 
-### Step 7: Add Filters
+### Step 6: Add Filters
 Add filters to your dashboard to allow users to interact with the data. You can add filters to individual sheets or to the entire dashboard.
 
-### Step 8: Add Titles and Text
+### Step 7: Add Titles and Text
 Add titles and text to your dashboard to provide context and guidance to users. You can add titles and text boxes using the "Text" tool in the "Objects" pane.
 
-### Step 9: Customize the Appearance
+### Step 8: Customize the Appearance
 Customize the appearance of your dashboard by selecting "Format" from the main menu. From here, you can change the background color, add borders, adjust fonts and colors, and make other cosmetic changes.
 
-### Step 10: Publish your Dashboard
+### Step 9: Publish your Dashboard
 Once you're happy with your dashboard, you can publish it to Tableau Server or Tableau Online to share it with others. You can also save it as a packaged workbook to share with users who have Tableau Desktop
 
 ## Your Turn: Build a Simple Dashboard
@@ -280,6 +280,6 @@ Now, you can use the categories in the bar chart to filter the entire dashboard,
 19. Save and Publish to Tableau Public! Submit your workbook link when you are finished.
 
 ## Summary
-In this lab, we reviewed the ten basic steps for building a dashboard. The steps include planning the dashboard, choosing a layout, adding sheets, arranging and resizing sheets, adding filters, adding titles and text, customizing the appearance. Then, we walked through creating a simple dashboard for communicating Sales by Sub-Category in two ways: Total Sales by Sub-Category and Total Regional Sales for the Top-10 Sub-Categories.
+In this lab, we reviewed the basic steps for building a dashboard. The steps include planning the dashboard, choosing a layout, adding sheets, arranging and resizing sheets, adding filters, adding titles and text, customizing the appearance. Then, we walked through creating a simple dashboard for communicating Sales by Sub-Category in two ways: Total Sales by Sub-Category and Total Regional Sales for the Top-10 Sub-Categories.
 
 By now, you should have a fairly good understanding of dashboarding basics in Tableau. In the upcoming cumulative lab, you will have a chance to apply your skills and create an interactive dashboard on your own.

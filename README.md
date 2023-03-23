@@ -92,7 +92,7 @@ To communicate these data points, we can use a **bar chart** and **regional map*
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/rviz-1-swap-sales.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/viz-1-swap-sales.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center>
 </div>
@@ -110,7 +110,7 @@ To communicate these data points, we can use a **bar chart** and **regional map*
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/rviz-2-bar.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/viz-2-bar.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center>
 </div>
@@ -189,6 +189,15 @@ In the video below, we show steps 14-15.
 
 17. Next, drag a Vertical Container from the Objects card and add it beneath the title. Drag the "Sales by Sub-Category" viz from the Sheets Pane over and drop it under the title. Then, drag the legend from the left side of the dashboard underneath the viz.
 
+<p>
+<div>
+    <center>
+<table><tr><td>
+<video controls src = "https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/dash-1.mov" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
+
 18. Next, drag a Horizontal Container from the Objects card and drop it underneath the bar chart and legend. Then, drag and drop the "Regional Sales by Sub-Category" viz into the container from the Sheets pane. Make sure that the legends appear to the left of the map. 
 
 In the video below, we perform steps 17-18.
@@ -197,17 +206,42 @@ In the video below, we perform steps 17-18.
 <div>
     <center>
 <table><tr><td>
-<video controls src = "https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/dash-final.mov" alt="This is the alt-text for the image." style="width: 700px;"/>
+<video controls src = "https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/dash-3.mov" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center>
 </div>
 
 18. Next, click on the bar chart and select **Use as a Filter > Sum (Profits)**.
 
+<p>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/dash-select-top-viz.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
 
-19. Resize the visualizations so that the layout closely matches the dashboard pictured below.
+<p>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/viz-1-use-filter.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
 
-20. Save and Publish to Tableau Public! Submit your workbook link when you are finished.
+<p>
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/8_dashboard_labs/viz-1-use-filter-2.png" alt="Image of the sheets tab in the lower-left corner of the Tableau Data Source Page, with the Left Pane and Canvas visible." alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center>
+</div>
+
+
+19. Save and Publish to Tableau Public! Submit your workbook link when you are finished.
 
 ## Summary
 In this lab, we reviewed the ten basic steps for building a dashboard. The steps include planning the dashboard, choosing a layout, adding sheets, arranging and resizing sheets, adding filters, adding titles and text, customizing the appearance. Then, we walked through creating a simple dashboard for communicating Sales by Sub-Category in two ways: Total Sales by Sub-Category and Total Regional Sales for the Top-10 Sub-Categories.

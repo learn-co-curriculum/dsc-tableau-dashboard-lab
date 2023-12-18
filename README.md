@@ -184,7 +184,7 @@ b. Tableau also automatically moves `Sales` to the Marks card and adds a Size at
 </div>
 
 
-12. Now, let's filter the data so that only categories in the top 5 for sales are featured by dragging the `Sub-Category` Dimension to the Filter shelf. Then, right click and select **Edit Filter > Top > By Feild > Top: 5 > Sub-Category > Count**, then apply. 
+12. Now, let's filter the data so that only categories in the top 5 for sales are featured by dragging the `Sub-Category` Dimension to the Filter shelf. Then, right click and select **Edit Filter > Top > By Field > Top: 5 > Sales > Sum**, then apply. 
 
 <p>
 <div>
